@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-# Professional Self-Assessment
+
+## Professional Self-Assessment
 
 Over the past few years in Southern New Hampshire University’s computer science program, I have progressed from writing short single purpose blocks of code to building, testing, and documenting full end to end software. Throughout my time I have been able to diversify my learning and gain knowledge in numerous areas of computer science. This ranged from designing 3D scenes in OpenGL with C++, developing dashboard web applications utilizing Python and MongoDB, creating mobile applications with java, and many more. While each of these projects were different in fundamental aspects, they all allowed me to benefit from learning industry best practices in categories such as design, documentation, and testing across a plethora of real-world use cases. 
 
