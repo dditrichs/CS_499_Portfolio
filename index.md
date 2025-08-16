@@ -29,6 +29,8 @@ _example of input validation when trying to log a negative number_
 
 _example of input validation when trying to log a letter_
 
+[Repository for first enhancement](https://github.com/dditrichs/CS360_Weight_Tracking_App_First_Enhancement)
+
 ## 2. Algorithms and Data Structures
 
 
