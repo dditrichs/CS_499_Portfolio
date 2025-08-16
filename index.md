@@ -21,7 +21,7 @@ In this first enhancement, this artifact was improved to have better input valid
 
 Enhancing this application taught me the importance of anticipating user input errors and being able to provide meaningful feedback. I learned to apply defensive programming techniques to handle exceptions gracefully. One challenge that I encountered during my enhancements was ensuring that all possible invalid input scenarios were handled and prompted the user with the appropriate error messages when applicable. Balancing the input validation alongside a smooth user experience required testing of all possible error scenarios to ensure they are handled correctly. 
 
-!(https://github.com/dditrichs/CS_499_Portfolio/blob/main/images/cs499-pic-1.PNG)
+![pic1](https://github.com/dditrichs/CS_499_Portfolio/blob/main/images/cs499-pic-1.PNG "pic1")
 
 ## 2. Algorithms and Data Structures
 
