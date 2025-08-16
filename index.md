@@ -38,7 +38,7 @@ _example of input validation when trying to log a letter_
 
 ## 2. Algorithms and Data Structures
 
-This artifact is the same weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I selected this artifact for my ePortfolio because it is a good example of how algorithims can help display useful data to the end user in a real world application. This artifact was improved by adding functionality to show the user their average weight across all logs as well as a total change in weight from the first log to the most recent. This allows for better user experience as it provides further functionality and more data to help the user track their weight better. 
+This artifact is the same weight tracking android application that I built for the CS360 class in the spring of 2024. I selected this artifact for my ePortfolio because it is a good example of how algorithims can help display useful data to the end user in a real world application. This artifact was improved by adding functionality to show the user their average weight across all logs as well as a total change in weight from the first log to the most recent. This allows for better user experience as it provides further functionality and more data to help the user track their weight better. 
 
 With this enhancement I met the course outcome I set to achieve that reads, “Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry- specific goals”. This was done by adding more functionality that provides value to this application by making it more intuitive and interactive for the end user.
 
@@ -55,7 +55,7 @@ _Dashboard showcasing average weight and change since first entry functionality_
 
 ## 3. Databases
 
-This artifact is the same weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I selected this artifact for my ePortfolio because it shows database queries that are called upon through CRUD functionality. This artifact was improved by replacing the single purpose delete icon in the weight log list with an “Edit” button. When clicked, the user is prompted with a dialog that offers the option to either delete the entry or edit it. Choosing “Edit” opens a second dialog pre-filled with the current weight and date values, allowing the user to make changes and save them back to the database. This improvement consolidated two separate actions into a single, more user-friendly workflow while still maintaining the original delete functionality. It also enhanced the CRUD capabilities of the application by supporting update operations alongside the other functioning methods for create, read, and delete.
+This artifact is the same weight tracking android application that I built for the CS360 class in the spring of 2024. I selected this artifact for my ePortfolio because it shows database queries that are called upon through CRUD functionality. This artifact was improved by replacing the single purpose delete icon in the weight log list with an “Edit” button. When clicked, the user is prompted with a dialog that offers the option to either delete the entry or edit it. Choosing “Edit” opens a second dialog pre-filled with the current weight and date values, allowing the user to make changes and save them back to the database. This improvement consolidated two separate actions into a single, more user-friendly workflow while still maintaining the original delete functionality. It also enhanced the CRUD capabilities of the application by supporting update operations alongside the other functioning methods for create, read, and delete.
 
 By carrying out this enhancement I met the course outcome, "Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry- specific goals". I did this by creating new functionality within the app to work in line with various classes to provide a seamless method to edit weight logs. 
 
@@ -63,7 +63,7 @@ During the enhancement I learned the importance of ensuring that during the addi
 
 ![pic4](images/cs499-pic-4.PNG)
 
-_Menu for edit or delete_
+_Menu to delete or edit weight log_
 
 ![pic5](images/cs499-pic-5.PNG)
 
