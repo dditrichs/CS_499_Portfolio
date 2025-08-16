@@ -45,6 +45,10 @@ While creating this enhancement I learned the importance of adding data while en
 
 _Dashboard showcasing average weight and change since first entry functionality_
 
+### Enhancement Two Artifacts
+
+[Repository for second enhancement](https://github.com/dditrichs/CS360_Weight_Tracking_App_Second_Enhancement)
+
 ## 3. Databases
 
 
