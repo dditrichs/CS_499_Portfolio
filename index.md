@@ -58,7 +58,25 @@ _example of input validation when trying to log a letter_
 
 # 2. Algorithms and Data Structures
 
-This artifact is the same weight tracking android application that I built for the CS360 class in the spring of 2024. I selected this artifact for my ePortfolio because it is a good example of how algorithims can help display useful data to the end user in a real world application. This artifact was improved by adding functionality to show the user their average weight across all logs as well as a total change in weight from the first log to the most recent. This allows for better user experience as it provides further functionality and more data to help the user track their weight better. 
+This artifact is the same weight tracking android application that I built for the CS360 class in the spring of 2024. I selected this artifact for my ePortfolio because it is a good example of how algorithims can help display useful data to the end user in a real world application. This artifact was improved by adding functionality to show the user their average weight across all logs as well as a total change in weight from the first log to the most recent. This allows for better user experience as it provides further functionality and more data to help the user track their weight better. The average weight algorithm works by looping through all weight logs in weightList, adding them all up, then dividing that against the number of logs. The change in weight algorithm works by getting the first and last weight in weightList and subtracting them. An example of the code is shwon below.
+
+     public void updateWeightStats() {
+        if (weightList != null && !weightList.isEmpty()) {
+            float total = 0f;
+            for (Weight w : weightList) {
+                total += w.weight;
+            }
+            float average = total / weightList.size();
+            // Display the calculated average weight
+            averageWeightDisplay.setText("Average weight: " + String.format("%.2f", average));
+
+            float firstWeight = weightList.get(0).weight;
+            float lastWeight = weightList.get(weightList.size() - 1).weight;
+            float weightChange = lastWeight - firstWeight;
+            // Display the weight change since the first entry
+            changeWeightDisplay.setText("Change since first entry: " + String.format("%.2f", weightChange));
+        }
+    }
 
 With this enhancement I met the course outcome I set to achieve that reads, “Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry- specific goals”. This was done by adding more functionality that provides value to this application by making it more intuitive and interactive for the end user.
 
