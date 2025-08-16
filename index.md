@@ -22,9 +22,11 @@ In this first enhancement, this artifact was improved to have better input valid
 Enhancing this application taught me the importance of anticipating user input errors and being able to provide meaningful feedback. I learned to apply defensive programming techniques to handle exceptions gracefully. One challenge that I encountered during my enhancements was ensuring that all possible invalid input scenarios were handled and prompted the user with the appropriate error messages when applicable. Balancing the input validation alongside a smooth user experience required testing of all possible error scenarios to ensure they are handled correctly. 
 
 ![pic1](images/cs499-pic-1.PNG)
+
 _example of input validation when trying to log a negative number_
 
 ![pic2](images/cs499-pic-2.PNG)
+
 _example of input validation when trying to log a letter_
 
 ## 2. Algorithms and Data Structures
