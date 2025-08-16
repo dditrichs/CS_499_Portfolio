@@ -11,14 +11,14 @@ This ePortfolio will highlight my progression as I display my strengths in Softw
 
 [Original Application Repository](https://github.com/dditrichs/CS360_Weight_Tracking_App_Original)
 
-## Software Design and Engineering
+## 1. Software Design and Engineering
 
 
 
-## Algorithms and Data Structures
+## 2. Algorithms and Data Structures
 
 
 
-## Databases
+## 3. Databases
 
 
