@@ -17,6 +17,7 @@ This ePortfolio will highlight my progression as I display my strengths in Softw
 [Original Application Repository](https://github.com/dditrichs/CS360_Weight_Tracking_App_Original)
 
 ## 1. Software Design and Engineering
+
 This artifact is a weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I chose this artifact for my ePortfolio because it was a good baseline to benefit from some more detailed and tailored software design. In this first enhancement, this artifact was improved to have better input validation in the multiple fields where the users are interacting with the application. In addition, I added more comments to the code so it can be better understood. 
 
 With this enhancement I met the course outcome that reads, “Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.” I did so by enhancing the app to solve the issue of invalid numbers and letters being able to be submitted to fields where they are not applicable. In addition, the user is presented prompts in these scenarios to let them know where the issue has occurred. This also meets the course outcome that reads, "Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources". By ensuring that the validation methods are accurate it defends from invalid input reaching the database and the risk of leaking internal errors to the user. 
@@ -36,7 +37,8 @@ _example of input validation when trying to log a letter_
 [Repository for first enhancement](https://github.com/dditrichs/CS360_Weight_Tracking_App_First_Enhancement)
 
 ## 2. Algorithms and Data Structures
-This artifact is a weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I selected this artifact for my ePortfolio because it is a good example of how algorithims can help display useful data to the end user in a real world application. This artifact was improved by adding functionality to show the user their average weight across all logs as well as a total change in weight from the first log to the most recent. This allows for better user experience as it provides further functionality and more data to help the user track their weight better. 
+
+This artifact is the same weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I selected this artifact for my ePortfolio because it is a good example of how algorithims can help display useful data to the end user in a real world application. This artifact was improved by adding functionality to show the user their average weight across all logs as well as a total change in weight from the first log to the most recent. This allows for better user experience as it provides further functionality and more data to help the user track their weight better. 
 
 With this enhancement I met the course outcome I set to achieve that reads, “Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry- specific goals”. This was done by adding more functionality that provides value to this application by making it more intuitive and interactive for the end user.
 
@@ -53,4 +55,20 @@ _Dashboard showcasing average weight and change since first entry functionality_
 
 ## 3. Databases
 
+This artifact is the same weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I selected this artifact for my ePortfolio because it shows database queries that are called upon through CRUD functionality. This artifact was improved by replacing the single purpose delete icon in the weight log list with an “Edit” button. When clicked, the user is prompted with a dialog that offers the option to either delete the entry or edit it. Choosing “Edit” opens a second dialog pre-filled with the current weight and date values, allowing the user to make changes and save them back to the database. This improvement consolidated two separate actions into a single, more user-friendly workflow while still maintaining the original delete functionality. It also enhanced the CRUD capabilities of the application by supporting update operations alongside the other functioning methods for create, read, and delete.
 
+By carrying out this enhancement I met the course outcome, "Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry- specific goals". I did this by creating new functionality within the app to work in line with various classes to provide a seamless method to edit weight logs. 
+
+During the enhancement I learned the importance of ensuring that during the addition of new features they must be integrated and tested properly to ensure they work with the existing code. One challenge I faced during this was making sure the existing statistics updated correctly after both edits and deletions. I made sure this was working by ensuring that the updateWeightStats method was being called after either action.
+
+![pic4](images/cs499-pic-4.PNG)
+
+_Menu for edit or delete_
+
+![pic5](images/cs499-pic-5.PNG)
+
+_Editing the weight log_
+
+### Enhancement Three Artifacts
+
+[Repository for second enhancement](https://github.com/dditrichs/CS360_Weight_Tracking_App_Third_Enhancement)
