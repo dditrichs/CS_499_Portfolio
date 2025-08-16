@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Damon Ditrichs · CS 499 ePortfolio"
+description: "Capstone portfolio demonstrating growth in computer science by showcasing enhancements in Software Design & Engineering, Algorithms & Data Structures, and Databases."
 ---
 
 # Professional Self-Assessment
