@@ -22,7 +22,7 @@ This ePortfolio will highlight my progression as I display my strengths in Softw
 
 # 1. Software Design and Engineering
 
-This artifact is a weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I chose this artifact for my ePortfolio because it was a good baseline to benefit from some more detailed and tailored software design. In this first enhancement, this artifact was improved to have better input validation in the multiple fields where the users are interacting with the application. Below is a block from the set goal weight string where the input in the string is validated by checking if it is empty, parsing it as a float, and making sure it is greater than 0.
+This artifact is a weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I chose this artifact for my ePortfolio because it was a good baseline to benefit from some more detailed and tailored software design. In this first enhancement, this artifact was improved to have better input validation in the multiple fields where the users are interacting with the application. Below is a block from the set goal weight method where the input in the string is validated by checking if it is empty, parsing it as a float, and making sure it is greater than 0.
 
             if (goalStr.isEmpty()) {
                 Toast.makeText(DataDisplayActivity.this, "Please enter a valid number", Toast.LENGTH_SHORT).show();
