@@ -22,7 +22,23 @@ This ePortfolio will highlight my progression as I display my strengths in Softw
 
 # 1. Software Design and Engineering
 
-This artifact is a weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I chose this artifact for my ePortfolio because it was a good baseline to benefit from some more detailed and tailored software design. In this first enhancement, this artifact was improved to have better input validation in the multiple fields where the users are interacting with the application. In addition, I added more comments to the code so it can be better understood. 
+This artifact is a weight tracking android application that I built for the CS360 class in the spring of 2024. It allows users to log their daily weight, set a goal weight, and receive SMS notification when their goal weight is received. I chose this artifact for my ePortfolio because it was a good baseline to benefit from some more detailed and tailored software design. In this first enhancement, this artifact was improved to have better input validation in the multiple fields where the users are interacting with the application. Below is a block from the set goal weight string where the input in the string is validated by checking if it is empty, parsing it as a float, and making sure it is greater than 0.
+
+            if (goalStr.isEmpty()) {
+                Toast.makeText(DataDisplayActivity.this, "Please enter a valid number", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            float goalValue;
+            try {
+                goalValue = Float.parseFloat(goalStr);
+            } catch (NumberFormatException e) {
+                Toast.makeText(DataDisplayActivity.this, "Please enter a valid number", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            if (goalValue < 0) {
+                Toast.makeText(DataDisplayActivity.this, "Goal weight cannot be negative", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
 With this enhancement I met the course outcome that reads, “Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.” I did so by enhancing the app to solve the issue of invalid numbers and letters being able to be submitted to fields where they are not applicable. In addition, the user is presented prompts in these scenarios to let them know where the issue has occurred. This also meets the course outcome that reads, "Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources". By ensuring that the validation methods are accurate it defends from invalid input reaching the database and the risk of leaking internal errors to the user. 
 
