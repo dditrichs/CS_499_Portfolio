@@ -41,6 +41,9 @@ With this enhancement I met the course outcome I set to achieve that reads, “D
 
 While creating this enhancement I learned the importance of adding data while ensuring it works seamlessly with CRUD operations. I had to use my best skills to ensure that any use case would be met with the correct functionality. One challenge I faced during this enhancement was the average and change weight not updating after a weight log deletion. To fix this I had to ensure that my new updateWeightStats method was being called upon after any deletion.
 
+![pic3](images/cs499-pic-3.PNG)
+
+_Dashboard showcasing average weight and change since first entry functionality_
 
 ## 3. Databases
 
