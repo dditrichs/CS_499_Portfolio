@@ -75,4 +75,4 @@ _Editing the weight log_
 
 ### Enhancement Three Artifacts
 
-[Repository for second enhancement](https://github.com/dditrichs/CS360_Weight_Tracking_App_Third_Enhancement)
+[Repository for third enhancement](https://github.com/dditrichs/CS360_Weight_Tracking_App_Third_Enhancement)
